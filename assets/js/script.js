@@ -1,6 +1,6 @@
 // Accordion IMG
 function img1(){
-  document.getElementById('changing').src="img/basic_hero_ui@2x.png";
+  document.getElementById('changing').src="assets/img/basic_hero_ui@2x.png";
   document.getElementById('sideimg').style.backgroundColor="aqua";
 }
 function img2(){
