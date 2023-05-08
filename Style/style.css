@@ -1,0 +1,241 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+header{
+    background-color: #f8f9fa;
+    height: 45px;
+    z-index: 5;
+}
+.navbar{
+    max-width: 100%;
+    padding-top: 0;
+}
+.navcontainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.dropdown-menu{
+    background-color: #f2eee8;
+    display: none;
+    font-size: 12px;
+    --bs-dropdown-link-hover-bg: none !important;
+    --bs-dropdown-border-color: none !important;
+}
+.nav-link:hover{
+    background-color: #f2eee8;
+    color: black;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    padding-bottom: .7rem;
+    margin-bottom: -.5rem;
+    color: black;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 8px 16px;
+    margin-right: 0;
+    margin-top: .4rem;
+}
+.dropnav{
+    padding-bottom: 0;
+}
+.dropdown-menu{
+    border-radius: 0;
+}
+.dropdown-menu ul{
+    min-width: 250px;
+    padding: 20px 16px;
+}
+.dropdown-menu li{
+    padding: 8px 16px;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 16px;
+    width: 200px;
+    color: black;
+}
+.dropdown-menu li:hover{
+    background-color: hsla(36,23%,55%,.14);
+}
+.dropdown-menu h3{
+    font-weight: bold !important;
+    font-size: 12px;
+    padding: 8px 16px;
+}
+.ddown2-content{
+    display: flex;
+    text-align: left;
+}
+.ddown2-content span{
+    font-size: 10px;
+}
+p{
+    margin-bottom: .5rem;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.hiding a{
+    color: black;
+    padding: 8px;
+}
+.right-three a{
+    color: black;
+    padding: 8px;
+}
+.navitem button,.hidingbutton button{
+    border: none;
+    /* margin-top: .4rem; */
+    background-color: #0061fe;
+    padding: 6px 10px;
+    color: white;
+    float: right;
+}
+.navitem button:hover{
+    background-color: #0061fe9e;
+}
+.navitem:hover .rightnavlink{
+    background-color: #f2eee8;
+    color: black;
+}
+
+
+
+/* body */
+main{
+    padding-top: 50px;
+    background-color: black;
+}
+.first-header h2{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 40px;
+    font-family: Atlas Grotesk Web,Atlas Grotesk,AtlasGrotesk,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.first-header p{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+.first-header button{
+ background-color: #0061fe;
+ border: none;
+ padding: 12px;
+ font-weight: 500;   
+}
+.video-div video{
+    max-width: 60%;
+}
+
+.vid-description-list span{
+    font-weight: 500;
+    font-size: 20px;
+}
+.logo-list{
+    background-color: #f7f5f2;
+}
+.logo-list li{
+    line-height: 150%;
+    font-size: 16px;
+}
+.logo-list h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10%;
+}
+.rightdiv{
+    background-color: #14c8eb;
+    width: 60rem;
+}
+.rightdiv img{
+    width: 70%;
+    margin: 20%;
+}
+.adsidebyside .btn{
+    border-radius: 0;
+    text-align: left;
+}
+.applogodiv{
+    background-color: #f2eee8;
+    padding-bottom: 2%;
+}
+.applogodiv a{
+    color: black;
+}
+.applogodiv a:hover{
+    text-decoration: none;
+}
+.applogodiv h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+.carouseldiv{
+    background-color: #1e1919;
+}
+.carouseldiv a{
+    color: white;
+    /* padding-bottom: 3%; */
+}
+.carouseldiv a:hover{
+    text-decoration: none;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+.linklist a{
+    text-decoration: none;
+    color: white;
+}
+.carouseldiv{
+    padding: 5% 10%;
+}
+.carousaltxtp{
+    margin-top: 9rem;
+}
+.carousaltxt{
+    text-align: left;
+}
+#sideimg{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+#changing{
+    padding: 5% 0;
+    width: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
