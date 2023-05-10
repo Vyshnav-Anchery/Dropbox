@@ -12,6 +12,19 @@
         flex-wrap: nowrap;
     }
 }
+@media (max-width:370px){
+    .navbar{
+        flex-wrap: nowrap;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .hiding .nav-link{
+        font-size: 13px;
+        margin-bottom: 3px;
+        padding: 0 5px;
+    }
+}
 
 
 
@@ -90,10 +103,12 @@
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-collapse {
     display: flex;
-    flex-basis: auto;
 }
 .carousaltxt h3{
     font-size: 24px;
+}
+.carouseldiv img{
+    min-height: 348px;
 }
 }
 
@@ -113,6 +128,9 @@
     }
     .first-header{
         padding: 1rem;
+    }
+    .logo-list h4{
+        margin-top: 5%;
     }
 }
 @media (max-width: 992px){

@@ -194,6 +194,9 @@ main{
 .carouseldiv{
     background-color: #1e1919;
 }
+.carouseldiv .row{
+    --bs-gutter-x: .3rem;
+}
 .carouseldiv a{
     color: white;
     /* padding-bottom: 3%; */
